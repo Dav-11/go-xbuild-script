@@ -73,7 +73,7 @@ FULL_PATH="$(readlink -f $0)"
 LOCAL_PATH="$(dirname $FULL_PATH)"
 
 # PATHS
-cd "$LOCAL_PATH"/..
+#cd "$LOCAL_PATH"/..
 ROOT_PATH="$(pwd)"
 BIN_PATH="$ROOT_PATH"/bin
 CMD_PATH="$ROOT_PATH"/cmd
